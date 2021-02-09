@@ -495,9 +495,7 @@ a {
   padding-top: 95px;
   padding-bottom: 95px;
 }
-.icon-customers {
-  padding-top: 50px;
-}
+
 .customer-list {
   display: flex;
   display: inline-flex;
@@ -645,7 +643,7 @@ a {
   position: relative;
   overflow: hidden;
 }
-.project-img-portfolio:hover .overlay {
+.project-focus:hover .overlay {
   transform: translateY(0);
 }
 .project-focus:focus .overlay {
@@ -716,7 +714,6 @@ a {
 
 .footer-list {
   display: block;
-  margin-top: 45px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: auto;
@@ -816,7 +813,13 @@ a {
 .footer-list-link:focus .footerl-list-icon {
   fill: var(--background-color);
 }
-
+.footer-text-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
 .backdrop {
   position: fixed;
   top: 0;
